@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+.form {
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+}
+.form h2 {
+    color: #FAF0E6;
+    font-size: 32px;
+    margin-bottom: 16px;
+    font-family: 'Mont serrat', sans-serif;
+}
+
+.form label {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.form input{
+    height: 40px;
+}
+
+.form input:focus, .form textarea:focus {
+    outline: 2px solid #FAF0E6;
+}
+
+.form input, .form textarea {
+    padding: 16px;
+    background-color: transparent;
+    border: 1px solid #FAF0E6;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.form button{
+    height: 40px;
+    background-color: #FAF0E6;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Mont serrat', sans-serif;
+}
+
+.texto-caixa{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
